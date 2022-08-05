@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body{
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 180, 87);
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(255, 123, 28);
+    padding: 20px;
+    border-radius: 5px ;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5),4px 7px 7px rgba(255, 68, 0, 0.5),6px 9px 9px rgba(0, 110, 255, 0.5),8px 11px 11px rgba(106, 0, 255, 0.5);
+}
+.container h2{
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+#textarea{
+    resize: none;
+    height: 170px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+}
+.counts{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(75, 74, 74);
+}
+#totalCount{
+    color: blueviolet;
+
+}
+#remainingCount{
+    color: rgb(251, 63, 11);
+
+}
+@media (max-width:800px) {
+    body{
+        background-color: rgb(255, 123, 28);
+    }
+    .container{
+        background-color:  rgb(255, 180, 87);
+    }
+    .container h2{
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 2px rgb(255, 255, 255);
+    }
+    
+}
